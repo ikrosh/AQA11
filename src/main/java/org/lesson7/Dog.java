@@ -23,7 +23,10 @@ public class Dog extends Animal implements Pet {
 
     @Override
     public void greets() {
-        System.out.println("Cat " + getName() + " says: Woof");
+        System.out.println("Dog " + getName() + " says: Woof");
     };
 
+    public void greets(Dog dog) {
+        System.out.println("Woooof");
+    };
 }

@@ -12,5 +12,11 @@ public class Main {
         Wolf wolf1 = new Wolf("Renk");
         wolf1.hunting();
         wolf1.greets();
+
+        System.out.println("!!!!!!!!!");
+
+        Dog dog = new Dog("Archi");
+        dog.greets();
+        dog.greets(new Dog("Terru"));
     }
 }
